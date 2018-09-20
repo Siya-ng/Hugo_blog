@@ -1,10 +1,14 @@
 ---
-title: "Default Post"
+title: "Test Post"
+layout:     post 
 date: 2018-09-19T23:22:02+08:00
 draft: true
 tags : ["theme"]
-categories : ["starting"]
-banner : "img/banners/banner-1.jpg"
+categories: [ "Tech"]
+
+image: "https://img.zhaohuabing.com/in-post/istio-traffic-shifting/crossroads.png"
+URL: "/2018/09/19/Test-post/"
+
 ---
 
 ## Introduction

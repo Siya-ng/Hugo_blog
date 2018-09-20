@@ -1,33 +1,24 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Si Ya's Blog"
-style = "purple"
 
-theme = "hugo-universal-theme"
+theme = "hugo-theme-cleanwhite"
 
 # Define the number of posts per page
 paginate = 10
 
 
-[menu]
-
-# Main menu
-
-[[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-
 [params]
-    viewMorePostLink = "/blog/"
-    paginate = 10
+  header_image = "img/home-bg-jeep.jpg"
+
+  SEOTitle = "Si Ya's Blog"
+  slogan = "路在脚下，心向远方"
+  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
+  image_404 = "img/404-bg.jpg"
+  title_404 = "404 page unfound"
+
 
     author = "Si Ya"
-    style = "pink"
 
     defaultKeywords = ["SiYa", "hugo", "go"]
     defaultDescription = "Site template made by devcows using hugo"
@@ -37,21 +28,6 @@ paginate = 10
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
     copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
-
-[Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-
-# Enable and disable widgets for the right sidebar
-
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
-
-
-[params.recent_posts]
-    enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+  featured_tags = true 
+  featured_condition_size = 2 
 
